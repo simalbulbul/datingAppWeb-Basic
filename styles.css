@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px; 
+}
+
+.social-link img {
+    width: 30px; 
+    height: auto; 
+}
+
+.logo {
+    max-width: 100px; 
+    height: auto;
+    width: 120px;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+
+.nav-links {
+    text-align: center;
+}
+
+.nav-link {
+    text-decoration: none; 
+    font-size: 20px;
+    margin: 20px;
+    color: black;
+    font-family: 'Helvetica';
+}
+
+
+.metin {
+    padding-top: 150px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.ilk {
+    color: #10c4f4;   
+    font-size: 60px; 
+}
+
+.son {
+    color: #065e75; 
+    font-size: 60px; 
+    margin-top: 10px; 
+}
+
+.kucukMetin {
+    color: gray;
+    margin-top: 40px; 
+    font-size: 20px;
+    width: 850px;
+    height: auto; 
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f4f4;
+}
+
+.ekranSS, .metin2, .ekranSS2 {
+    margin: 50px; 
+}
+
+.ekranSS2 {
+    align-self: flex-start; 
+}
+
+.metin2 {
+    font-style: bold;
+    color: #ff7675; 
+    font-size: 40px; 
+    margin-top: 10px; 
+}
+
+.container3 {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ekranSS, .ekranSS2 {
+    width: 250px;
+    height: auto; 
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        padding: 20px; /* Küçük ekranlarda padding'i azalt */
+    }
+
+    .social-link img {
+        width: 24px; /* Küçük ekranlarda sosyal medya ikonları daha küçük */
+    }
+
+    .logo {
+        width: 100px; /* Küçük ekranlarda logo boyutunu küçült */
+    }
+
+    .nav-link {
+        font-size: 18px; /* Küçük ekranlarda link fontunu küçült */
+        margin: 12px; /* Küçük ekranlarda link marginini azalt */
+    }
+
+    .metin {
+        padding-top: 100px; /* Küçük ekranlarda daha az padding üstte */
+    }
+
+    .ilk, .son {
+        font-size: 40px; /* Küçük ekranlarda başlık fontunu küçült */
+    }
+
+    .kucukMetin {
+        margin-top: 24px; /* Küçük ekranlarda metin marginini artır */
+        font-size: 16px; /* Küçük ekranlarda metin fontunu küçült */
+        width: 100%; /* Genişlik sınırlaması */
+    }
+
+    .metin2 {
+        font-size: 24px; /* Küçük ekranlarda başlık fontunu küçült */
+        margin-top: 8px; /* Küçük ekranlarda margin artır */
+    }
+
+    .ekranSS, .ekranSS2 {
+        width: 100%; /* Tam genişlikte görüntüleme */
+        max-width: 250px; /* Maksimum genişlik */
+        height: auto;
+        margin: 16px; /* Daha küçük margin */
+    }
+}
